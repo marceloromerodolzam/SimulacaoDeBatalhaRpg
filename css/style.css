@@ -1,0 +1,45 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+    display: inline-block;
+}
+
+#corpo{
+    margin: 210px 400px 210px 400px;
+    background-color: #505050;
+    border-radius: 4px;
+    border: 2px solid #000000 ;
+    padding: 10px;
+}
+
+h5, button{
+    text-align: center;
+    background-color: #505050;
+    border-radius: 4px;
+    border: 2px solid #000000 ;
+    color: #fff;
+}
+
+#jogador,
+#inimigo{
+    padding: 10px;
+    text-align: center;
+    background-color: #505050;
+    border-radius: 4px;
+    border: 2px solid #000000 ;
+    color: #fff;
+}
+
+progress{
+    border: 2px solid #000000 ;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #f2f2f2;
+}
+
+progress::-webkit-progress-value {
+    background-color: #747474; 
+}
